@@ -4,18 +4,19 @@
 Today [2026-01-27]
 
 ## Current Focus
-Building Issue data class
+Building CLI commands
 
 ## Completed Today
-- Designed issue schema (JSONL format)
-- Implemented Issue class with validation
-- Tested serialization/deserialization
-- All tests passing
+- Designed issue schema ✓
+- Implemented Issue class with validation ✓
+- Implemented IssueStore class ✓
+- JSONL persistence working ✓
+- All tests passing (6/6 functional, type checks, linting) ✓
 
 ## Next Up
-- Implement storage layer (.ams/issues.jsonl)
-- Implement meta.json for ID tracking
-- Create storage class
+- Implement first CLI command (create)
+- Add CLI framework (Click)
+- Wire Issue + IssueStore together
 
 ## Blockers/Questions
 None
