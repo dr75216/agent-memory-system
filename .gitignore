@@ -20,3 +20,9 @@ Thumbs.db
 # Project specific
 .ams/
 *.log
+
+# Local files (not for repo)
+ams
+ams.pub
+packages.microsoft.gpg
+vscode.deb
